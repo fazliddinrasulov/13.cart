@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import CartContainer from "./CartContainer";
 import "./App.css";
-import AppProvider, { useAppContext } from "./context";
+import { useAppContext } from "./context";
 function App() {
   const { isLoading } = useAppContext();
   if (isLoading) {

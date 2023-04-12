@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useReducer } from "react";
-import cartItems from "./data";
+
 import {
   CLEAR_CART,
   REMOVE,
